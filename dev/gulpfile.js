@@ -101,6 +101,6 @@ gulp.task('bundle', ['sass'], function () {
 });
 
 gulp.task('deploy', function() {
-    return gulp.src('./app/*')
+    return gulp.src('../public/*')
         .pipe(ghPages());
 });
