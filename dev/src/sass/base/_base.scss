@@ -1,0 +1,8 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  @extend %full-size;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

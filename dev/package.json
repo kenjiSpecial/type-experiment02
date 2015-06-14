@@ -1,0 +1,66 @@
+{
+  "name": "budo-gulp-react-starer",
+  "version": "1.0.0",
+  "description": "a starter kit with Budo, SASS, React and Gulp",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Kenji Saito",
+    "email": "k.saito.1985@gmail.com",
+    "url": "https://github.com/kenjiSpecial"
+  },
+  "dependencies": {
+    "domready": "*",
+    "gulp-duration": "0.0.0",
+    "object-assign": "^2.0.0",
+    "watchify": "^3.2.2"
+  },
+  "devDependencies": {
+    "babelify": "*",
+    "browserify": "*",
+    "budo": "*",
+    "errorify": "*",
+    "events": "*",
+    "flux": "*",
+    "garnish": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-streamify": "*",
+    "gulp-uglify": "*",
+    "keymirror": "*",
+    "minimist": "*",
+    "node-reset-scss": "*",
+    "once": "*",
+    "opn": "*",
+    "react": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "open": "gulp watch --open",
+    "start": "gulp watch",
+    "build": "gulp bundle --production"
+  },
+  "keywords": [
+    "budo",
+    "html",
+    "css",
+    "sass",
+    "live",
+    "reload",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/budo-gulp-starter.git"
+  },
+  "homepage": "https://github.com/mattdesl/budo-gulp-starter",
+  "bugs": {
+    "url": "https://github.com/mattdesl/budo-gulp-starter/issues"
+  }
+}
